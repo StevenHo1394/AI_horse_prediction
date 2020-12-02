@@ -3,7 +3,7 @@
  AI Horse racing model (using 3-layer Neural Network, predict the finishing position of each horse in a race)
 
   -package: 
-          ./saved_model/*: pre-trained model using 20,000 epochs
+          ./saved_model/*: pre-trained model using 20,000 epochs 
           horse_racing_model4.py: The NN model for horse racing
           evaluate_model.py: To evaluate the performance of the model 
           predict3.py: Predict the results
