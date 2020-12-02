@@ -9,9 +9,10 @@
           predict3.py: Predict the results
 
   -usage: 
-          make sure the pre-trained model is present. If not, train the model by running "horse_racing_model4.py";
-          add a new csv, name as "horse_data_yyyymmdd_racex.csv" with the same format as the example "horse_data_20201202_race2.csv";
+          1) make sure the pre-trained model is present. If not, train the model by running "horse_racing_model4.py";
+          2) (optional) evaluate the model by running "evaluate_model.py"
+          3) (if new prediction needed) add a new csv, name as "horse_data_yyyymmdd_racex.csv" with the same format as the example "horse_data_20201202_race2.csv";
           modify the line "dataset = pd.read_csv('horse_data_20201202_race2.csv')" to "horse_data_yyyymmdd_racex.csv";
-          run the "predict3.py" and inspect the results on console;
+          4) run the "predict3.py" and inspect the predicted results on console;
 
   -improvements: need grab data from jockey club automatically, improve accuracy, regularization...
