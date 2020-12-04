@@ -15,4 +15,14 @@
           modify the line "dataset = pd.read_csv('horse_data_20201202_race2.csv')" to "horse_data_yyyymmdd_racex.csv";
           4) run the "predict3.py" and inspect the predicted results on console;
 
+Accuracy:
+=================
+Model: v1.0
+Data: v1.0.0
+Date: 2020-12-02
+
+Training: 100%
+Testing: 47%
+
+
   -improvements: need grab data from jockey club automatically, improve prediction accuracy, regularization, tackle "same finsihing position" of different horses...
