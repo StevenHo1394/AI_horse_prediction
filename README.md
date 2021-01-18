@@ -14,6 +14,9 @@
           3) (if new prediction needed) add a new csv, name as "horse_data_yyyymmdd_racex.csv" with the same format as the example "horse_data_20201202_race2.csv";
           modify the line "dataset = pd.read_csv('horse_data_20201202_race2.csv')" to "horse_data_yyyymmdd_racex.csv";
           4) run the "predict3.py" and inspect the predicted results on console;
+          
+  -more:
+          This is an ongoing project and will be updated from time to time.
 
 Accuracy:
 =================
