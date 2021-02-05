@@ -2,7 +2,7 @@
 """
 Created on Sat Nov 21 22:00:40 2020
 
-@author: longi
+@author: Steven Ho
 """
 
 #This needs to combine with the old ANN implementation
@@ -18,7 +18,6 @@ y = dataset.iloc[:, -1].values
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
 
-#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.1, random_state = 0)
 
 import tensorflow as tf
 from sklearn.preprocessing import StandardScaler
