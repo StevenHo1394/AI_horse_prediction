@@ -6,7 +6,7 @@ Created on Sat Nov 21 17:15:42 2020
 
 Input data:
     
-position, load, ON odds, odds, "class", num of horses in race
+position, load, ON (Overnight) odds, odds, "class", num of horses in race
 
 """
 
@@ -66,11 +66,10 @@ model.add(tf.keras.layers.Dense(units=14, activation='softmax'))
 model.compile(loss = 'categorical_crossentropy', optimizer = 'adam', metrics = ['accuracy'])
 
 # Training the ANN on the Training set
-model.fit(X_train, y_train, batch_size = 14, epochs = 20000)
+model.fit(X_train, y_train, batch_size = 14, epochs = 50000)
 
 model.save('saved_model/my_model')
 
 
-""""""
 
 
