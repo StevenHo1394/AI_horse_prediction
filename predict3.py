@@ -2,14 +2,16 @@
 """
 Created on Wed Dec  2 18:03:56 2020
 
-@author: longi
+@author: Steven Ho
 """
 
 # Restore the weights
 import numpy as np
 import pandas as pd
 
-dataset = pd.read_csv('horse_data_20201202_race2.csv')
+CURRENT_RACE_DATA = 'new_data/horse_data_20210203_race7.csv'
+
+dataset = pd.read_csv(CURRENT_RACE_DATA)
 X_live = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 
@@ -24,7 +26,7 @@ model = tf.keras.models.load_model('saved_model/my_model')
 y_pred = model.predict( sc.fit_transform(X_live)) 
 #print("y_pred=", y_pred)
 
-# Predicting the winning horse
-y_pred_winning_horse = np.argmax(y_pred, axis = 1) 
-print("Expected finishing postions=", y_pred_winning_horse+1)
+# Predicting the finishing position
+y_pred_finishing = np.argmax(y_pred, axis = 1) 
+print("Expected finishing positions=", y_pred_finishing+1)
 
