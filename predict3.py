@@ -9,7 +9,7 @@ Created on Wed Dec  2 18:03:56 2020
 import numpy as np
 import pandas as pd
 
-CURRENT_RACE_DATA = 'new_data/horse_data_20210203_race7.csv'
+CURRENT_RACE_DATA = 'new_data/horse_data_20210905_race10.csv'
 
 dataset = pd.read_csv(CURRENT_RACE_DATA)
 X_live = dataset.iloc[:, :-1].values
