@@ -2,7 +2,7 @@
 """
 Created on Sat Nov 21 17:15:42 2020
 
-@author: udemy, modified by Steven Ho for horse racing prediction
+@author: Steven Ho
 
 Input data:
     
