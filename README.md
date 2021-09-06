@@ -16,10 +16,20 @@
           4) run the "predict3.py" and inspect the predicted results on console;
           
   -more:
-          This is an ongoing project and will be updated from time to time.
+          This is an ongoing project and will be updated from time to time. (Latest upate on 2021/09/06 for new season 2021-2022)
 
 Accuracy:
 =================
+Model: v1.1
+Data: v1.0.2
+Date: 2021-09-06
+
+Training: 33.44%
+Testing: 18.75%
+
+=================
+
+
 Model: v1.1
 Data: v1.0.1
 Date: 2021-02-05
