@@ -6,7 +6,7 @@
           ./saved_model/*: pre-trained model using 50,000 epochs;
           horse_racing_model4.py: The NN model for horse racing;
           evaluate_model.py: To evaluate the performance of the model; 
-          predict3.py: Predict the results
+          predict3.py: Predict the results.
 
   -usage: 
           1) make sure the pre-trained model is present. If not, train the model by running "horse_racing_model4.py";
@@ -15,7 +15,7 @@
           modify the line "dataset = pd.read_csv('horse_data_20201202_race2.csv')" to "horse_data_yyyymmdd_racex.csv";
           4) run the "predict3.py" and inspect the predicted results on console. For example, if we got this as the results:
           
-          >>> Expected finishing positions= [ 4  2  2 11  6  4  9  9  4  1 12  5] <<<
+          Expected finishing positions= [ 4  2  2 11  6  4  9  9  4  1 12  5]
           
           The horse number "1" is expected to finish at position "4",
           The horse number "2" is expected to finish at position "2",
