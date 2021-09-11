@@ -1,6 +1,6 @@
 # AI_horse_prediction
 
- AI Horse racing model (using 3-layer Neural Network, predict the finishing position of each horse in a race)
+ AI Horse racing model (using 3-layer Neural Network, predict the finishing position of each horse in a race).
 
   -package: 
           ./saved_model/*: pre-trained model using 50,000 epochs;
@@ -13,10 +13,18 @@
           2) (optional) evaluate the model by running "evaluate_model.py"
           3) (if new prediction needed) add a new csv, name as "horse_data_yyyymmdd_racex.csv" with the same format as the example "horse_data_20201202_race2.csv";
           modify the line "dataset = pd.read_csv('horse_data_20201202_race2.csv')" to "horse_data_yyyymmdd_racex.csv";
-          4) run the "predict3.py" and inspect the predicted results on console;
+          4) run the "predict3.py" and inspect the predicted results on console. For example, if we got this as the results:
+          
+          >>> Expected finishing positions= [ 4  2  2 11  6  4  9  9  4  1 12  5] <<<
+          
+          The horse numbered as "1" is expected to finish at position "4",
+          The horse numbered as "2" is expected to finish at position "2",
+          ...
+          The horse numbered as "12" is expected to finish at position "5".
+          
           
   -more:
-          This is an ongoing project and will be updated from time to time. (Latest upate on 2021/09/06 for new season 2021-2022)
+          This is an ongoing project and will be updated from time to time. (Latest upate on 2021/09/11 for new season 2021-2022)
 
 Accuracy:
 =================
