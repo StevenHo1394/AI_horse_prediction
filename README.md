@@ -20,6 +20,16 @@
 
 Accuracy:
 =================
+Model: v1.2
+Data: v1.0.2
+Date: 2021-09-11
+
+Training: 44.48%
+Testing: 17.5%
+
+=================
+
+
 Model: v1.1
 Data: v1.0.2
 Date: 2021-09-06
