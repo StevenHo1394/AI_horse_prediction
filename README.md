@@ -22,6 +22,8 @@
           ...
           The horse number "12" is expected to finish at position "5".
           
+          So, we should bet on horses with expected finish positions = 1/2/3 on Win/Place/Quinella/Quinella Place/Trio; 
+          and bet on "first four" or "Quartet" for horses with expected finish positions = 1/2/3/4.
           
   -more:
           This is an ongoing project and will be updated from time to time. (Latest upate on 2021/09/11 for new season 2021-2022)
