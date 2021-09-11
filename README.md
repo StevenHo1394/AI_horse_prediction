@@ -17,10 +17,10 @@
           
           >>> Expected finishing positions= [ 4  2  2 11  6  4  9  9  4  1 12  5] <<<
           
-          The horse numbered as "1" is expected to finish at position "4",
-          The horse numbered as "2" is expected to finish at position "2",
+          The horse number "1" is expected to finish at position "4",
+          The horse number "2" is expected to finish at position "2",
           ...
-          The horse numbered as "12" is expected to finish at position "5".
+          The horse number "12" is expected to finish at position "5".
           
           
   -more:
