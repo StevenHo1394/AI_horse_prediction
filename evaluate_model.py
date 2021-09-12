@@ -29,7 +29,7 @@ X_test = sc.transform(X_test)
 new_model = tf.keras.models.load_model('saved_model/my_model')
 
 # Predicting the Test set results
-y_pred = new_model.predict( sc.fit_transform(X_test) ) 
+y_pred = new_model.predict( X_test )  #y_pred = new_model.predict( sc.fit_transform(X_test) ) 
 y_pred = np.argmax(y_pred, axis = 1)
 
 
