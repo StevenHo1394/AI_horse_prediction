@@ -29,7 +29,6 @@
           This is an ongoing project and the model and/or dataset will be updated from time to time. (Latest upate on 2021/09/12 for new season 2021-2022)
           
   Disclaimer:          
-  
           This model is regarded as an ongoing project of the author's interest and as a demonstration of deep learning usage. The author will not be responsible for any loss of investment that is caused directly/indirectly by this project.
 
 Accuracy:
