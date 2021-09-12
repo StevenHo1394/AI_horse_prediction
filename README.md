@@ -35,7 +35,7 @@ Data: v1.0.2
 Date: 2021-09-11
 
 Training: 44.48%
-Testing: 17.5%
+Testing: 26.25%
 
 =================
 
