@@ -1,6 +1,6 @@
 # AI_horse_prediction
 
- AI Horse racing model (using 3-layer Neural Network, predict the finishing position of each horse in a race). The data used to train this model is obtained from the Hong Kong Jockey Club (HKJC). Please note that the author has no relation nor connection of any kind with the HKJC. 
+This AI Horse racing model is using a 3-layer Neural Network to predict the finishing position of each horse in a race. The data used to train this model is obtained from the Hong Kong Jockey Club (HKJC). Please note that the author has no relation nor connection of any kind with the HKJC. 
 
   Package: 
           ./saved_model/*: pre-trained model using 50,000 epochs;
