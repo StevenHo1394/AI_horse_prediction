@@ -1,6 +1,6 @@
 # AI_horse_prediction
 
- AI Horse racing model (using 3-layer Neural Network, predict the finishing position of each horse in a race).
+ AI Horse racing model (using 3-layer Neural Network, predict the finishing position of each horse in a race). The data used to train this model is obtained from the Hong Kong Jockey Club (HKJC). Please note that the author has no relation nor connection of any kind with the HKJC. 
 
   Package: 
           ./saved_model/*: pre-trained model using 50,000 epochs;
@@ -25,8 +25,12 @@
           So, we should bet on horses with expected finish positions = 1/2/3 on Win/Place/Quinella/Quinella Place/Trio; 
           and bet on "first four" or "Quartet" for horses with expected finish positions = 1/2/3/4.
           
-  More:
-          This is an ongoing project and will be updated from time to time. (Latest upate on 2021/09/11 for new season 2021-2022)
+  Future planning:
+          This is an ongoing project and the model and/or dataset will be updated from time to time. (Latest upate on 2021/09/12 for new season 2021-2022)
+          
+  Disclaimer:          
+  
+          This model is regarded as an ongoing project of the author's interest and as a demonstration of deep learning usage. The author will not be responsible for any loss of investment that is caused directly/indirectly by this project.
 
 Accuracy:
 =================
