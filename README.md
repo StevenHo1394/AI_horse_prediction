@@ -1,5 +1,12 @@
 # AI Horse Prediction
 
+*** Please note ****
+
+This repository will not be updated. 
+Please refer to https://github.com/StevenHo1394/AI_horse_prediction_2 for the continuation. Thanks!
+
+********************
+
 This AI Horse racing prediction is using a 3-layer Neural Network to predict the finishing position of each horse in a race. The data used to train this model is obtained from the Hong Kong Jockey Club (HKJC). Please note that the author has no relation nor connection of any kind with the HKJC. The model is built and trained by Tensorflow. This project is 100% in Python.
 
   Package: 
